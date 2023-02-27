@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+
+
+.sect1{
+    height: 100vh;
+    background-color: red;
+}
+.sect2{
+    height: 100vh;
+    background-color: rgb(0, 255, 4);
+    position: relative;
+}
+.sect3{
+    height: 100vh;
+    background-color: rgb(255, 251, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.sect4{
+    height: 100vh;
+    background-color: rgb(0, 13, 255);
+}
+.sect5{
+    height: 100vh;
+    background-color: rgb(255, 0, 234);
+}
+
+
+.fa-up-long{
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    font-size: 40px;
+    cursor: pointer;
+   
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 1.8s ease-in all;
+}
+
+.boxx{
+    height: 250px;
+    width: 200px;
+    background-color: cornflowerblue;
+    position: relative;
+}
